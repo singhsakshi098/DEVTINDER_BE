@@ -238,4 +238,3 @@ app.use((err, req, res, next) => {
   console.error(err.stack); // Log the error details
   res.status(500).send('Something went wrong!'); // Send a 500 Internal Server Error response
 });
-```
