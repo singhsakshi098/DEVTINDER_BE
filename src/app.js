@@ -31,9 +31,7 @@ app.use("/hello", (req, res) => {
     res.send("Hello from the server!");
 });
 
-app.use("/helloooooooooo", (req, res) => {
-    res.send("Hello from the server!");
-});
+
 
 // app.use("/", (req, res) => {
 //     res.send("Hello sakshi");
