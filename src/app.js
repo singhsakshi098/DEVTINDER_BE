@@ -33,9 +33,9 @@ app.use("/hello", (req, res) => {
 
 
 
-// app.use("/", (req, res) => {
-//     res.send("Hello sakshi");
-// });
+app.use("/", (req, res) => {
+    res.send("Hello sakshi");
+});
 
 app.listen(3000 , () => {
     console.log("server is running on 3000");
