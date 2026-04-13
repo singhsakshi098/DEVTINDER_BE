@@ -2,7 +2,7 @@ const express = require('express');
 
 const app = express();
 
-//this will only handle GET call to /user
+this will only handle GET call to /user
 app.get("/user", (req, res) => {
     res.send({firstName: "Sakshi", lastname:"singh"});
 });
