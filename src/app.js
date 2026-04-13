@@ -8,12 +8,12 @@ app.get("/user", (req, res) => {
 });
 
 app.post("/user", (req, res) => {
-    //saving data to database
+    
     res.send("data sucessfully saved")
 });
 
 app.delete("/user", (req, res) => {
-    //saving data to database
+    //deleting data to database
     res.send("deleted data sucessfully")
 });
 
